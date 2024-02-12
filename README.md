@@ -1,5 +1,3 @@
-markdown
-
 # Django Blog
 
 ## Description
