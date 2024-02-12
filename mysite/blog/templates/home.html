@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to the Home Page!</h1>
+        <p>Hope you'll enjoy my site</p>
+        <a href="/blog" class="btn btn-primary">Go to Blog</a>
+        <img src="{% static 'images/home-bg.jpg' %}" style="width: 100%;">
+    </div>
+</body>
+<style>
+  h1 {
+    font-family: 'Pacifico', cursive;
+  }
+
+  p {
+    font-family: 'Indie Flower', cursive;
+  }
+</style>
+
+</html>
